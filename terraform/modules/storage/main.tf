@@ -131,6 +131,7 @@ resource "aws_ssm_parameter" "example_ssm_db_password" {
     git_repo             = "codegoat"
     yor_trace            = "d066cbee-4067-495c-8377-3294ec8f5509"
   })
+  key_id = "CKV_ANY"
 }
 
 resource "aws_ssm_parameter" "example_ssm_db_user" {
@@ -168,6 +169,7 @@ resource "aws_ssm_parameter" "example_ssm_db_name" {
     git_repo             = "codegoat"
     yor_trace            = "f6cfbef0-a5d1-4630-a933-52adf04af603"
   })
+  key_id = "CKV_ANY"
 }
 
 resource "aws_s3_bucket" "my-private-bucket" {

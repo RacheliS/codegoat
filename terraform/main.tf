@@ -87,4 +87,5 @@ resource "aws_ebs_volume" "i" {
     git_repo             = "codegoat"
     yor_trace            = "1c06a9c0-4d81-4137-8d86-24cf1260ca17"
   }
+  encrypted = true
 }
